@@ -1,0 +1,28 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', ;
+    text-align: center;
+}
+main {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 2em;
+    
+}
+img{
+    width: 360px;
+    height: 400px;
+}
+#validatie img {
+    height: 2em;
+    width: auto;
+    border: 0;
+    margin: 0 .3em;
+}
+footer{
+    padding: 0 3em;
+    display: grid;
+    grid-template-columns: 1fr auto;
+    text-align: left;
+}
